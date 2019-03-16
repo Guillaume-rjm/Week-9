@@ -48,7 +48,6 @@ class Movie extends MediaPlaylist {
   }
 
   mediaDisplay() {
-    // super.currentlyPlaying();
     return `Name: ${this._Name}` + '\n' + `Duration: ${this._Duration} s` + '\n' + `Rating: ${this._Rating}`;
   }
 }
@@ -68,7 +67,6 @@ class PlaylistAll { //extends MediaPlayList {
 
   add(anyMedia) {
     return this._aPlaylist.push(anyMedia);
-    // return this._aPlaylist;
   }
 
   playing() {
@@ -85,7 +83,6 @@ class PlaylistAll { //extends MediaPlayList {
 
   sort(){
     return this._aPlaylist.sort();
-    // return this._aPlaylist;
   }
 }
 
